@@ -1,0 +1,115 @@
+header{
+    background-image:url("img1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+header a{
+    margin-left:30px;
+}
+nav ul li{
+    display:inline-flex;
+    margin-left:40px;
+    margin-top:25px;
+}
+nav{
+    margin-left:500px;
+}
+nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding:7px;
+    background-image:url("img1.jpg");
+    border-radius:20%;
+}
+body{
+    background-image:url("crabg.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+#about{
+    text-align:center;
+    font-size:medium;
+}
+.grid{
+    display:grid;
+    display:flex;
+    flex-wrap: wrap;
+}
+.m img{
+    padding-left:40px;
+}
+.items img{
+    padding:50px 10px 0px 70px;
+    box-shadow: pink 3px;
+}
+.items video{
+    margin-left:100px;
+}
+#move{
+    width:100%;
+    height:400px;
+    overflow:auto auto; 
+    white-space:nowrap;
+}
+#move .slide{
+    display:inline-block;
+}
+.row{
+    display:flex;
+    margin-left:80px;
+}
+.reviews{
+    margin:0px 300px 2px 30px;
+}
+.reviews pre{
+    background-color:rgb(188, 217, 217);
+    padding:15px;
+    border:solid black 1px;
+}
+#contact{
+    display:flex;
+}
+form{
+    padding:20px 200px 30px 300px; 
+    border:solid black 2px;
+    border-radius:10%; 
+    margin-left:250px;
+    padding:60px;  
+    background-image:url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.inputbox{
+    padding:8px;
+    border-radius:20%;
+}
+.submit{
+    text-align:center;
+    padding-top:30px;
+}
+input[type=submit]{
+    background-color:green;
+    color:white;
+    padding:7px;
+    border-radius:10%;
+}
+input[type=text]{
+    padding:8px;
+    background-color:rgb(217, 213, 213);
+    border-radius:10%;
+    border:none;
+}
+input[type=email]{
+    padding:8px;
+    background-color:rgb(217, 213, 213);
+    border-radius:10%;
+    border:none;
+}
+footer{
+    background-color:rgb(3, 69, 3);
+    padding:70px;
+}
+.icons{
+    margin-left:550px;
+}
